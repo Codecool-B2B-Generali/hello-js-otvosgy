@@ -57,17 +57,19 @@
 	for (; i < word.length; i++) 
 	{
 	    if (word[i]!==" " ) 
-		alert(` Write each letter of a word - ${word[i]}`);
-		console.log(`Write each letter of a word - ${word[i]}`);
+		{
+			alert(` Write each letter of a word - ${word[i]}`);
+			console.log(`Write each letter of a word - ${word[i]}`);
+		}
 			
 	};
 	//------------------------------------------
 
 	i = 0; num1=0;
 	word = prompt('Get the number of letters in a word - Enter a word: ', ' ');
-	for (; i < word.lengsth; i++) 
+	for (; i < word.length; i++) 
 	{
-	    if (word[i]!==" " ) num1++;
+	    if (word[i]!==" " ) num1=num1+1;
 	};
 	alert(`Get the number of letters in a word - ${num1}`);
 	console.log(`Get the number of letters in a word - ${num1}`);	
